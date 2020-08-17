@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (min-width:969px) and (max-width:1024px){
+#hero .bannercontent{left:40px;}
+#hero .hero-img{width:40%;}
+#hero .text{padding-top:40px;}
+#footer li{padding:0px 0px 0 10px; font-size:14px;}
+#hero .text h1{font-size:42px; line-height:1.2;}
+}
+
+@media screen and (max-width:1023px) {
+.bsnav-sticky.bsnav-sticky-slide{width:100%; position:none !important; padding:5px 15px;}
+.navbar-collapse{background:none; padding:15px; margin-top:15px;}
+#hero .hero-img{width:40%;}
+#hero .text{padding-top:0; padding-left:35px;}
+#hero .text h1{font-size:34px; line-height:1.2;}
+#hero .text p{font-size:20px;}
+#technologysection .technologypic{position:relative; max-width:inherit; top:0; right:0; margin-top:20px;}
+}
+
+
+@media screen and (max-width:767px) {
+.bsnav-mobile .navbar{padding:140px 0 15px !important; background:#ff1000 !important;}
+.bsnav-mobile .bsnav-mobile-overlay{position:absolute;}
+.bsnav-sticky.bsnav-sticky-slide{right:inherit; padding:0 !important;}
+.navbar-nav .nav-item .nav-link{font-size:16px; padding:8px; margin:0;}
+.bsnav-sticky.bsnav-sticky-slide.sticked{position:relative !important;}
+.bsnav .navbar-toggler-icon{width:25px; height:2px;}
+.bsnav .navbar-toggler .navbar-toggler-icon::before{height:2px;}
+.bsnav .navbar-toggler .navbar-toggler-icon::after{height:2px;}
+.navbar-toggler .navbar-toggler-icon::after{bottom:-9px;}
+.navbar-toggler .navbar-toggler-icon::before{bottom:-7px;}
+.navbar-light .navbar-brand{padding:10px 0;}
+.bsnav-sticky-slide .navbar-nav .nav-item{margin-left:0;}
+
+#hero .bannermain{display:block;}
+#whysection .txtbtm, #technologysection .txtbtm{display:none;}
+#whysection .mobsection, #technologysection .mobsection{display:block;}
+
+#hero .bannercontent{position:relative;}
+#hero .text{max-width:inherit; padding:15px;}
+#hero .text h1{font-size:34px; line-height: 41px; letter-spacing: 0.15px;}
+#hero .text p{font-size:16px;}
+#whysection{padding-top:20px;}
+#whysection h2{font-size:24px;}
+#whysection p{margin-bottom:15px;}
+#whysection .mobsection, #technologysection .mobsection{padding-top:20px;}
+#whysection .mobsection h4, #technologysection .mobsection h4{font-size:18px; margin-top:8px;}
+#whysection .mobsection h4 br, #technologysection .mobsection h4 br{display:none;}
+#technologysection, #transformsection{padding:20px 0;}
+#technologysection .technologypic{position:relative; max-width:inherit; top:0; right:0; margin-top:20px;}
+#transformsection h1{font-size:34px; line-height: 42px; letter-spacing: 0.15px; text-align: center;}
+.rightbtmtxt{margin-top:20px;}
+#hero .hero-img{width:100%; max-width:inherit;}
+#transformsection .rightbtmtxt{position:relative; max-width:inherit; padding:0 15px; right:0;}
+#footer .text-right{text-align:left !important;}
+#footer ul{margin:0; padding:0;}
+#footer li{margin:0; padding:0;}
+}
+
+
+@media screen and (max-width:479px){
+
+}

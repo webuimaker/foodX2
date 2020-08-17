@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'Neue Einstellung';
+    src: url('fonts/NeueEinstellung-Regular.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Einstellung';
+    src: url('fonts/NeueEinstellung-Medium.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Einstellung';
+    src: url('fonts/NeueEinstellung-Black.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Einstellung';
+    src: url('fonts/NeueEinstellung-ExtraBold.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Einstellung';
+    src: url('fonts/NeueEinstellung-Thin.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Einstellung Normal';
+    src: url('fonts/NeueEinstellung-Normal.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Einstellung';
+    src: url('fonts/NeueEinstellung-Bold.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Einstellung';
+    src: url('fonts/NeueEinstellung-SemiBold.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Einstellung';
+    src: url('fonts/NeueEinstellung-Light.woff2') format('woff2'),
+        url('fonts/NeueEinstellung-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*,
+*::before,
+*::after {box-sizing: border-box;}
+html {width: 100%; min-height: 100%; height:100%; scroll-behavior: smooth;}
+body {font-family: 'Neue Einstellung', sans-serif; height:100%; color:#666666; font-size: 16px;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {color:#3B424D;}
+img { max-width: 100%; }
+p { margin: 0; padding: 0; line-height:1.5; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+ul { list-style: none; }
+.no-pad { padding: 0 !important; }
+.no-spacing{ margin: 0 !important; }
+.no-pad-rt { padding-right: 0!important; }
+.no-pad-lft { padding-left: 0!important; }
+.no-floting { float: none; }
+.hor-center { margin: auto; }
+.hor-spacer-10 { margin-top: 10px; }
+.rel { position: relative; }
+.abs { position: absolute; }
+.txt-center { text-align: center; }
+.mTop25 { margin-top: 25px; }
+
+h2{
+    font-size: 24px;
+}
+
+/**************** Top Menu Bar ****************/
+.bsnav-sticky.bsnav-sticky-slide{padding:20px; background:#ECEFF4 !important;}
+.bsnav-sticky-slide .navbar-nav  .nav-item {margin-left:30px;}
+.bsnav-sticky-slide .navbar-nav .nav-link{color:#0A519E !important; line-height: 24px; text-transform: capitalize; font-size:18px; padding:8px; margin:0px 0px 0 0px; font-weight:500;}  
+.navbar-nav .nav-item.active > .nav-link{color:#001155 !important; border-radius:6px;}
+.navbar-nav .nav-item:hover > .nav-link{color:#0A159E !important;}
+.navbar-brand img{max-width:140px;}
+
+.bsnav-sticky.bsnav-sticky-slide.sticked.in{background:#fff !important; box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.05), inset 0 -0.5px 0 0 rgba(0, 0, 0, 0.1); -moz-box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.05), inset 0 -0.5px 0 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 3px 10px 0 rgba(0, 0, 0, 0.05), inset 0 -0.5px 0 0 rgba(0, 0, 0, 0.1);}
+.bsnav-sticky.bsnav-sticky-slide.sticked.in{padding:16px 0 !important;}
+.bsnav-sticky.bsnav-sticky-slide.sticked.in .navbar-nav{margin-top:0;}
+.btn_1{background-color:#4b58df; border-radius:25px; padding:11.5px 33px; color:#fff; text-transform:uppercase; font-weight: 500; font-size: 20px; line-height: 21px;}
+
+
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+.bsnav-sticky.bsnav-sticky-slide.sticked.in .topnav{display:none;}
+.btn_1:hover{background:#000000; color:#fff;}
+.bsnav .navbar{padding:0;}
+
+/**************** Banner Section ****************/
+#hero .bannercontent{position:absolute; top:0; left:0; right:0; max-width:1105px; margin:0 auto;}
+#hero .hero-img{max-width: 45%;}
+#hero{width:100%; background:#ECEFF4; padding-top:90px;}
+#hero .text{max-width:55%; padding-top:150px;}
+#hero .text h1{font-size:48px; font-weight:500;  color:#000; line-height: 72px; letter-spacing: 0.15px;}
+#hero .text p{margin-top:15px; font-size:24px; color:rgba(0, 0, 0, 0.6); line-height:1.6; font-weight: normal;}
+#hero .text .btn.btn-primary{background:#0A519E; border-radius:200px;letter-spacing: 1.25px; line-height: 21px; font-weight: 500; border:0; text-transform:uppercase; font-size:20px; padding:10px 45px; margin-top:18px;}
+
+#hero .text .btn.btn-primary:hover{background:#103063;}
+#hero .bannermain{display:flex;}
+
+/**************** Why Section ****************/
+#whysection{padding:80px 0;}
+.sub-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#whysection .txtbtm, #technologysection .txtbtm{margin-top:35px;}
+#whysection .txtbtm h4, #technologysection .txtbtm h4{margin-top:24px; color:#1E1E1E; font-size:18px;line-height: 24px; letter-spacing: 0.5px; font-weight:500;}
+#whysection .txtbtm, #technologysection .txtbtm{display:block;}
+#whysection .mobsection, #technologysection .mobsection{display:none;}
+#whysection h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #1E1E1E;
+}
+#whysection .txtbtm{
+    margin-top: 80px;
+}
+#whysection .txtbtm p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/**************** Technology Section ****************/
+#technologysection{background:#ECEFF4; padding:80px 0; position:relative;}
+#technologysection .technologypic{position:absolute; right:20px; max-width:45%; top:110px;}
+#technologysection ul{margin:0; padding:0;}
+#technologysection li{background:url(../images/liststyle.png) no-repeat 0 8px; padding-left:15px; font-size:16px; line-height:1.4; padding-bottom:8px; color: rgba(0, 0, 0, 0.6);}
+#technologysection h6{font-size:20px; color:#00000099; line-height:27px; font-weight: normal;}
+#technologysection h2, #technologysection  h4{
+    color:#1E1E1E;
+}
+#technologysection h2{
+    margin-bottom: 40px;
+}
+#technologysection .txtbtm {
+    margin-top: 40px;
+}
+#technologysection  h4{
+    margin-bottom: 16px;
+}
+/**************** Transform Section ****************/
+#transformsection{background:#192D5B; padding:80px 0; position:relative;}
+#transformsection h1{font-size:48px; font-weight:500; color:#fff; line-height: 67px; letter-spacing: 0.15px; margin-bottom:35px; margin-top: 40px;}
+#transformsection h3{font-size:24px; letter-spacing: 0.25px; color:#fff; margin-bottom:28px; font-weight: 500; line-height: 30px;}
+#transformsection p{font-size:18px; line-height:27px; color:#fff; font-weight:normal; letter-spacing: 0.5px;}
+#transformsection p a{color:#fff;}
+#transformsection .rightbtmtxt{padding-top:90px; position:absolute; right:40px; max-width:48%;}
+#transformsection .rightbtmtxt h4{font-size:24px; font-weight:500; color:#fff; margin-bottom:40px;line-height: 25px;letter-spacing: 0.5px;}
+#transformsection .rightbtmtxt h5{font-size:20px; line-height:27px; color:rgba(255, 255, 255, 0.7); font-weight: normal; font-weight: 400;}
+#transformsection .transformbtm{margin-top:45px;}
+#transformsection .transformbtm h4{font-size:18px; font-weight:500; color:#fff; margin:24px 0 16px; line-height:24px;letter-spacing: 0.5px;}
+#transformsection .transformbtm p{font-size:16px; color:#fff; letter-spacing: 24px; font-weight:normal; letter-spacing: 0.5px;}
+.w-35{width:35%;}
+
+/**************** Partner Section ****************/
+#partnersection{padding:70px 0px; background:#fff;}
+#partnersection h3{font-size:24px; font-weight:500; color:#000; margin-bottom:24px;}
+
+/**************** Footer Section ****************/
+#footer{padding:70px 0px; background:#ECEFF4;}
+#footer ul{margin:0;}
+#footer li{display:inline-block; padding:0px 0px 0 35px; color:#000;}
+#footer li a{color:#000;}
