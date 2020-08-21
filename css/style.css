@@ -214,12 +214,14 @@ h2{
 #partnersection h3{font-size:24px; font-weight:500; color:#000; margin-bottom:24px;}
 
 /**************** Terms Page ****************/
-.termsbanner{padding:30px 80px 50px;}
+.termsbanner{padding:30px 95px 50px;}
 .termsbanner h1{font-size:48px; font-weight:500;  color:#000; line-height: 72px; letter-spacing: 0.15px;}
-#termscontainer{padding:80px;}
+#termscontainer{padding:68px 80px;}
 #termscontainer .topinfo p{font-weight:normal; font-size:16px; line-height:36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.6);}
-#termscontainer h4{font-weight:500; font-size:18px; line-height:36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin:48px 0 16px;}
+#termscontainer h4{font-weight:500; font-size:18px; line-height:36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin:25px 0 0;}
 #termscontainer p{font-weight:normal; font-size:16px; line-height:24px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.6);}
+#termscontainer .privacycontent{margin-top:41px;}
+#termscontainer .privacycontent ul{margin:24px 0; padding:0;}
 
 /**************** Footer Section ****************/
 #footer{padding:70px 0px; background:#ECEFF4;}
@@ -234,3 +236,16 @@ h2{
 .padright80{padding:20px 80px !important;}
 .fullwidth .technologypic{right:75px !important;}
 #transformsection .rightbtmtxt{right:80px !important;}
+
+.arrow {
+  display:none;
+  border: solid #0A519E;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  float:right;
+  margin-top:5px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
