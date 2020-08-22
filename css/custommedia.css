@@ -10,6 +10,10 @@
 .padright80{padding:20px !important;}
 #hero .text2{max-width:55%; padding-left:0;}
 .pad80{padding:80px 0 !important;}
+.padright122{padding-right:25px;}
+.padright71{padding-right:25px;}
+#nutritionmain .teamlist .teamimg{width:20%; padding-right:25px;}
+#nutritionmain .teamcontent{padding-top:0;}
 }
 
 @media screen and (max-width:1023px) {
@@ -39,6 +43,12 @@
 #hero .text2{max-width:55%;}
 .pad80{padding:40px 17px 46px !important;}
 .arrow{display:inline-block;}
+.termsbanner{padding:30px 35px 50px;}
+#nutritionsection{padding:68px 21px;}
+.padright122{padding-right:25px;}
+.padright71{padding-right:25px;}
+#nutritionmain{padding:80px 35px;}
+#nutritionmain .teamlist .teamimg{width:20%; padding-right:25px;}
 }
 
 
@@ -140,6 +150,20 @@
 .navbar-toggler{
     width: 25px;
 }
+.padright71, .padright122{padding-right:0; padding-bottom:20px;}
+#nutritionmain .teamlist .teamimg{width:100%; text-align:center; padding-right:0;}
+#nutritionmain .teamcontent{width:100%;}
+#nutritionsection{padding:38px 21px;}
+#nutritionsection .topcontent h2 br{display:none;}
+#nutritionsection .topcontent p{font-size:18px; letter-spacing: 0.5px;}
+#nutritionmain{padding:38px 31px;}
+#nutritionmain p{font-size:18px; line-height:24px; letter-spacing: 0.5px; margin-bottom:30px;}
+#nutritionmain .teamcontent h3{text-align:center;}
+#nutritionmain .teamcontent h5{text-align:center;}
+#nutritionmain .teamcontent p{font-size: 16px; line-height: 24px; letter-spacing: 0.005em; text-align: justify;}
+#nutritionmain .teamrow{margin-bottom:38px;}
+#nutritionmain .teamrow .teamcontent p{margin-bottom:0 !important;}
+#transformsection.pad80.nutritiontransform .rightbtmtxt{display:none;}
 }
 
 

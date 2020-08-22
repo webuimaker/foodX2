@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 @font-face {
-    font-family: 'Neue Einstellung';
+    font-family:'Neue Einstellung';
     src: url('fonts/NeueEinstellung-Regular.woff2') format('woff2'),
         url('fonts/NeueEinstellung-Regular.woff') format('woff');
     font-weight: normal;
@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'Neue Einstellung';
+    font-family:'Neue Einstellung';
     src: url('fonts/NeueEinstellung-Medium.woff2') format('woff2'),
         url('fonts/NeueEinstellung-Medium.woff') format('woff');
     font-weight: 500;
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: 'Neue Einstellung';
+    font-family:'Neue Einstellung';
     src: url('fonts/NeueEinstellung-Black.woff2') format('woff2'),
         url('fonts/NeueEinstellung-Black.woff') format('woff');
     font-weight: 900;
@@ -28,7 +28,7 @@
 }
 
 @font-face {
-    font-family: 'Neue Einstellung';
+    font-family:'Neue Einstellung';
     src: url('fonts/NeueEinstellung-ExtraBold.woff2') format('woff2'),
         url('fonts/NeueEinstellung-ExtraBold.woff') format('woff');
     font-weight: 800;
@@ -37,7 +37,7 @@
 }
 
 @font-face {
-    font-family: 'Neue Einstellung';
+    font-family:'Neue Einstellung';
     src: url('fonts/NeueEinstellung-Thin.woff2') format('woff2'),
         url('fonts/NeueEinstellung-Thin.woff') format('woff');
     font-weight: 100;
@@ -46,7 +46,7 @@
 }
 
 @font-face {
-    font-family: 'Neue Einstellung Normal';
+    font-family:'Neue Einstellung Normal';
     src: url('fonts/NeueEinstellung-Normal.woff2') format('woff2'),
         url('fonts/NeueEinstellung-Normal.woff') format('woff');
     font-weight: normal;
@@ -55,7 +55,7 @@
 }
 
 @font-face {
-    font-family: 'Neue Einstellung';
+    font-family:'Neue Einstellung';
     src: url('fonts/NeueEinstellung-Bold.woff2') format('woff2'),
         url('fonts/NeueEinstellung-Bold.woff') format('woff');
     font-weight: bold;
@@ -64,7 +64,7 @@
 }
 
 @font-face {
-    font-family: 'Neue Einstellung';
+    font-family:'Neue Einstellung';
     src: url('fonts/NeueEinstellung-SemiBold.woff2') format('woff2'),
         url('fonts/NeueEinstellung-SemiBold.woff') format('woff');
     font-weight: 600;
@@ -73,7 +73,7 @@
 }
 
 @font-face {
-    font-family: 'Neue Einstellung';
+    font-family:'Neue Einstellung';
     src: url('fonts/NeueEinstellung-Light.woff2') format('woff2'),
         url('fonts/NeueEinstellung-Light.woff') format('woff');
     font-weight: 300;
@@ -222,6 +222,32 @@ h2{
 #termscontainer p{font-weight:normal; font-size:16px; line-height:24px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.6);}
 #termscontainer .privacycontent{margin-top:41px;}
 #termscontainer .privacycontent ul{margin:24px 0; padding:0;}
+
+/**************** Nutrition Page ****************/
+#nutritionsection{padding:68px 80px;}
+#nutritionsection .topcontent h2{font-weight:500;font-size: 24px; line-height: 36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin-bottom:29px;}
+#nutritionsection .topcontent h2.headingsml{font-size: 18px; line-height: 24px; margin-bottom:5px; margin-top:19px;}
+#nutritionsection .topcontent p{font-weight: normal; font-size: 20px; line-height: 27px; color: rgba(0, 0, 0, 0.6);}
+#nutritionsection .topcontent p.contentsml{font-size:16px; line-height:24px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.6);}
+#nutritionsection h4{font-weight:500; font-size:18px; line-height:36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin:25px 0 0;}
+#nutritionsection p{font-weight:normal; font-size:16px; line-height:24px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.6);}
+#nutritionmain{background:#ECEFF4; padding:80px 95px;}
+#nutritionmain h3{font-size:24px; font-weight:500; line-height: 36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87);}
+#nutritionmain p{font-weight: normal; font-size: 20px; line-height: 36px; color: rgba(0, 0, 0, 0.6);}
+#nutritionmain .teamlist{margin-top:40px; width:100%; float:left;}
+#nutritionmain .teamlist .teamimg{width:14%; float:left;}
+#nutritionmain .teamlist .teamimg img{border-radius:100%;}
+#nutritionmain .teamrow{width:100%; float:left; margin-bottom:48px;}
+#nutritionmain .teamcontent{width:80%; float:left; padding-top:16px;}
+#nutritionmain .teamcontent h3{font-weight:500; font-size: 18px; line-height: 22px; color: #0A519E;}
+#nutritionmain .teamcontent h5{font-weight:normal; font-size:16px; line-height: 19px; color: rgba(0, 0, 0, 0.6);}
+#nutritionmain .teamcontent p{font-size:16px; line-height: 24px; letter-spacing: 0.005em; color: rgba(0, 0, 0, 0.6);}
+.padright122{padding-right:100px;}
+.padright71{padding-right:51px;}
+.nutritiontransform .desktopsection{max-width:705px !important;}
+.nutritiontransform .rightbtmtxt{max-width:40% !important;}
+.nutritiontransform .rightbtmtxt p{font-size:18px; line-height:27px; color:#fff; font-weight:normal; letter-spacing: 0.5px; margin-bottom:28px;}
+.nutritiontransform .rightbtmtxt p a{color:#fff;}
 
 /**************** Footer Section ****************/
 #footer{padding:70px 0px; background:#ECEFF4;}
