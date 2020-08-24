@@ -232,10 +232,10 @@ h2{
 #nutritionsection h4{font-weight:500; font-size:18px; line-height:36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin:25px 0 0;}
 #nutritionsection p{font-weight:normal; font-size:16px; line-height:24px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.6);}
 #nutritionmain{background:#ECEFF4; padding:80px 95px;}
-#nutritionmain h3{font-size:24px; font-weight:500; line-height: 36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87);}
+#nutritionmain h3{font-size:24px; font-weight:500; line-height: 36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin-bottom:24px;}
 #nutritionmain p{font-weight: normal; font-size: 20px; line-height: 36px; color: rgba(0, 0, 0, 0.6);}
 #nutritionmain .teamlist{margin-top:40px; width:100%; float:left;}
-#nutritionmain .teamlist .teamimg{width:14%; float:left;}
+#nutritionmain .teamlist .teamimg{width:14%; float:left; padding-right:16px;}
 #nutritionmain .teamlist .teamimg img{border-radius:100%;}
 #nutritionmain .teamrow{width:100%; float:left; margin-bottom:48px;}
 #nutritionmain .teamcontent{width:80%; float:left; padding-top:16px;}

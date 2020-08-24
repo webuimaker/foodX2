@@ -164,6 +164,9 @@
 #nutritionmain .teamrow{margin-bottom:38px;}
 #nutritionmain .teamrow .teamcontent p{margin-bottom:0 !important;}
 #transformsection.pad80.nutritiontransform .rightbtmtxt{display:none;}
+#nutritionsection .topcontent span{width: 40px; float: left;}
+#nutritionsection .topcontent h2.headingsml{padding-left:50px; margin-top:0;}
+#nutritionsection .topcontent p.contentsml{padding-left:50px;}
 }
 
 
