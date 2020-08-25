@@ -130,7 +130,7 @@
 #transformsection .transformbtm p{padding-left:50px; line-height:24px; letter-spacing: 0.5px;}
 #transformsection .mobsection p{font-size:16px; letter-spacing: 0.5px; line-height:27px; font-weight:normal;}
 #transformsection p br{display:none;}
-#transformsection h1{margin-top:24px;}
+#transformsection h1{margin-top:40px;}
 
 #partnersection .text-center{text-align:left !important;}
 #partnersection{padding:43px 17px 17px;}
@@ -150,10 +150,12 @@
 .navbar-toggler{
     width: 25px;
 }
-.padright71, .padright122{padding-right:0; padding-bottom:20px;}
+.padright122{padding-right:0; padding-bottom:41px;}
+.padright71{padding-right:0; padding-bottom:33px;}
 #nutritionmain .teamlist .teamimg{width:100%; text-align:center; padding-right:0;}
 #nutritionmain .teamcontent{width:100%;}
-#nutritionsection{padding:38px 21px;}
+#nutritionsection{padding:38px 21px 46px;}
+#nutritionsection .topcontent h2{margin-bottom:31px;}
 #nutritionsection .topcontent h2 br{display:none;}
 #nutritionsection .topcontent p{font-size:18px; letter-spacing: 0.5px;}
 #nutritionmain{padding:38px 31px;}

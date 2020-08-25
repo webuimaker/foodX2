@@ -239,7 +239,7 @@ h2{
 #nutritionmain .teamlist .teamimg img{border-radius:100%;}
 #nutritionmain .teamrow{width:100%; float:left; margin-bottom:48px;}
 #nutritionmain .teamcontent{width:80%; float:left; padding-top:16px;}
-#nutritionmain .teamcontent h3{font-weight:500; font-size: 18px; line-height: 22px; color: #0A519E;}
+#nutritionmain .teamcontent h3{font-weight:500; font-size: 18px; line-height: 22px; color: #0A519E; margin-bottom:0;}
 #nutritionmain .teamcontent h5{font-weight:normal; font-size:16px; line-height: 19px; color: rgba(0, 0, 0, 0.6);}
 #nutritionmain .teamcontent p{font-size:16px; line-height: 24px; letter-spacing: 0.005em; color: rgba(0, 0, 0, 0.6);}
 .padright122{padding-right:100px;}
